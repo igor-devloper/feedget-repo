@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
     "preview": "vite preview"
   },
   "dependencies": {
