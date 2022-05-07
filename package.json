@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc",
-    "start": "node dist/server.js",
     "preview": "vite preview"
   },
   "dependencies": {
