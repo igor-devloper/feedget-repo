@@ -21,7 +21,7 @@ export function FeedBackTypeStep({ onFeedbackTypeChanged }: FeedBackTypeStepProp
               onClick={() => onFeedbackTypeChanged(key as FeedBackType)}
               type="button"
             >
-              <img src={value.image.source} alt={value.image.alt} />
+              <img src={value.image.alt} alt={value.image.alt} />
               <span>{value.title}</span>
             </button>
           );
