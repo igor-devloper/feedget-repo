@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",
