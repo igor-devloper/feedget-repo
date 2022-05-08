@@ -43,7 +43,7 @@ export function FeedBackContentStep({
           <ArrowLeft weight="bold" className="w-4 h-4"/>
         </button>
         <span className="text-xl leading-6 pb-4 flex items-center gap-2">
-          <img src={feedBackTypeInfo.image.alt} alt={feedBackTypeInfo.image.alt} className="w-6 h-6"/>
+          <img src={feedBackTypeInfo.image.source} alt={feedBackTypeInfo.image.alt} className="w-6 h-6"/>
           {feedBackTypeInfo.title}
         </span>
         <CloseButton />

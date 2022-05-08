@@ -1,4 +1,7 @@
 import { useState } from "react";
+import ideaImageUrl from '../../assets/idea.png';
+import bugImageUrl from '../../assets/bug.png';
+import thoughtImageUrl from '../../assets/thought.png';
 import { FeedBackContentStep } from "./Steps/FeedbackContentStep";
 import { FeedBackTypeStep } from "./Steps/FeedbackTypeStep";
 import { FeedBackSuccessStep } from "./Steps/FeedbackSuccess";
@@ -8,18 +11,21 @@ export const feedbackTypes = {
   BUG: {
     title: 'Problema',
     image: {
+      source: bugImageUrl,
       alt: 'Imagem de um inseto'
     }
   },
   IDEA: {
     title: 'Ideia',
     image: {
+      source: ideaImageUrl,
       alt: 'Imagem de uma lampada'
     }
   },
   OTHER: {
     title: 'Outro',
     image: {
+      source: thoughtImageUrl,
       alt: 'Imagem de um balão de pensamento'
     }
   }
