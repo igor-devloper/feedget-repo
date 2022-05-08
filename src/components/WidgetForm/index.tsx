@@ -1,5 +1,4 @@
 import bugImageUrl from '../../assets/bug.svg';
-import ideaImageUrl from '../../assets/idea.svg';
 import thoughtImageUrl from '../../assets/thought.svg';
 import { useState } from "react";
 import { FeedBackContentStep } from "./Steps/FeedbackContentStep";
@@ -18,7 +17,6 @@ export const feedbackTypes = {
   IDEA: {
     title: 'Ideia',
     image: {
-      source: ideaImageUrl,
       alt: 'Imagem de uma lampada'
     }
   },
